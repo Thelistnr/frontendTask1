@@ -1,3 +1,106 @@
 *{
     height: 100%;
 }
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 5px rgba(131, 200, 247, 0.2);
+    background-color: hsl(216, 50%, 16%);
+    width: 20rem;
+    border-radius: 20px;
+    height: 500px;
+    padding: 10px 0;
+    margin: 120px 0 20px 0;
+}
+
+/* Slack Image */
+.wrap .img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px 0 20px 0;
+}
+.wrap .img img{
+    width: 100%;
+}
+
+/* Slack Username */
+.wrap .details{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+.wrap .details .name{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+}
+.wrap .details .slack{
+    display: flex;
+    margin: 0 10px;
+    flex-wrap: wrap;
+    height: 20px;
+}
+.wrap .details h1{
+    margin: -15px 0 0 10px;
+    font-size: 30px;
+    color: white;
+}
+
+/* Day of the week */
+.wrap .DOW{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    width: 275px;
+}
+.wrap .DOW .d{
+    margin: -2px 0 0 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(131, 200, 247);
+}
+
+/* UTC time in milliseconds */
+.wrap .MT{
+    display: flex;
+    height: 20px;
+    margin: 0 10px;
+}
+.wrap .MT .utc{
+    margin: -2px 0 0 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(131, 200, 247);
+}
+
+/* Track */
+.wrap .track{
+    display: flex;
+    height: 20px;
+    margin: 10px;
+}
+.wrap .track h3{
+    margin: -2px 5px 0 5px;
+    color: rgb(131, 200, 247);
+}
+
+/* Github link */
+.gh{
+    display: flex;
+}
+.gh a{
+    margin: -2px 5px 0 5px;
+    text-decoration: none;
+    color: rgb(131, 200, 247);
+}

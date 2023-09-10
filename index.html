@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 <body>
+    <noscript>You need to enable Javascript to run this app.</noscript>
+    <div class="wrap">
+        <div class="img">
+            <img src="images/Slack Image.jpg" alt="eJay" data-testid="slackDisplayImage">
+        </div>
+        <div class="details">
+            <div class="name">Hi, My name is- <h1>Elijah</h1>,</div>
+            <div class="slack">My HNG slack display name is- <h1 data-testid="slackUserName">eJay</h1></div>
+        </div>
+        <div class="DOW">
+            Today is- <div class="d" data-testid="currentDayOfTheWeek">.</div>
+        </div>
+        <div class="MT">
+            And the UTC time in milliseconds is- <div class="utc" data-testid="currentUTCTime"></div>
+        </div>
+        <div class="track">
+            I'm enrolled as a <h3 data-testid="myTrack">Frontend</h3> intern
+        </div>
+    </div>
+    <div class="gh">
+        Here's a link to this project's <a href="https://github.com/Thelistnr/frontendTask1" data-testid=“githubURL”>Github repository</a>
+    </div>
     
+    <script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
